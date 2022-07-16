@@ -1,0 +1,11 @@
+:root {
+    /*this styling will be applied globally*/
+    --light-blue: #E4FBFF;
+    --light-purple: #B8B5FF ;
+    --dark-purple: #7868E6;
+    --pale-purple: #EDEEF7;
+}
+
+.test-color{
+    color:var(--dark-purple);
+}

@@ -6,6 +6,6 @@
     --pale-purple: #EDEEF7;
 }
 
-.test-color{
-    color:var(--dark-purple);
+.dark-purple{
+    background-color:var(--dark-purple);
 }

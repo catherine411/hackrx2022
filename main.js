@@ -1,16 +1,19 @@
+let role;
 function chooseAdmin(){
     document.getElementById("dropdownMenuButton1").innerHTML = 'Admin';
+    role = "admin"
 }
 function choosePatient(){
     document.getElementById("dropdownMenuButton1").innerHTML = 'Patient';
+    role="patient"
 }
 
 //have to finish admin and patient paths
 function login(){
-    const loginRole = document.getElementById("role").innerHTML;
-    if (loginRole=="Admin")
+    // const loginRole = document.getElementById("role").innerText;
+    if (role=="admin")
         window.open("admin.html")
-    else (loginRole=="Patient")
+    else if (role="patient")
         window.open("patient.html")
 }
 

@@ -7,7 +7,11 @@ function choosePatient(){
 
 //have to finish admin and patient paths
 function login(){
-    window.open("admin.html");
+    const loginRole = document.getElementById("role").innerHTML;
+    if (loginRole=="Admin")
+        window.open("admin.html")
+    else (loginRole=="Patient")
+        window.open("patient.html")
 }
 
 $('p input[type="button"]').click(function () {

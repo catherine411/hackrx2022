@@ -17,6 +17,8 @@ h1{
 
 h2{
     color: var(--dark-purple);
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 h4{
@@ -34,6 +36,16 @@ h4{
     background-color: white;
     box-shadow: 5px 5px 5px var(--dark-purple);
     text-align: center;
+    line-height: 2;
+}
+
+.home-page-img {
+    height:400px;
+    position: absolute;
+    left: 200px;
+    top: 160px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px var(--dark-purple);
 }
 
 .entire-container{
@@ -72,4 +84,3 @@ h4{
     float: right;
     margin-left: 30px;
   }
-
